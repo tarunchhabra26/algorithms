@@ -32,7 +32,6 @@ public class BinarySearch {
 		if (maxNumber < minNumber) {
 			found = -1;
 		} 
-		
 		int	midPoint = minNumber + (maxNumber - minNumber) / 2;
 		if (inputArray[midPoint] > element)
 			recursiveBinSearch(inputArray, element, minNumber, midPoint - 1);
@@ -42,7 +41,6 @@ public class BinarySearch {
 			index = midPoint;
 			return midPoint;
 		}
-		
 		return found;
 	}
 
