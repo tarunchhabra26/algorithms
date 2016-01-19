@@ -3,7 +3,7 @@ package ctci.ch1.q2;
 public class ReverseAString {
 	
 	public static void main (String args[]){
-		String input = "Ek tha coder";
+		String input = "Hamari adhuri kahani";
 		System.out.println("Reversed String : " + new ReverseAString().reverseString(input));
 	}
 	
