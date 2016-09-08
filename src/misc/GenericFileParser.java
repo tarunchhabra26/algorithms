@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
  * This is a generic file parser that takes a file path as input and splits out all the lines and word with line and word number in the following format:
  * <word>:<line_number>:<word_count>
  * counts start at 0
+ * @author:  Tarun Chhabra
  */
 
 public class GenericFileParser {
